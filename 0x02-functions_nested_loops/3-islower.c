@@ -6,14 +6,15 @@
  * main - uses built in function
  * Return: 0 if succesful
  */
-
 int _islower(int c)
 {
-int i;
-i = 0;
-if (c >= 'a' && c <= 'z')
-{
-i = 1;
-}
-return (i);
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+	_putchar('\n');
 }
