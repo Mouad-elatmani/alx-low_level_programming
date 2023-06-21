@@ -8,7 +8,9 @@ void print_to_98(int n)
 {
 	int i, j;
 
-	if (n <= 98)
+	if (n == 98)
+		_putchar(n + '0');
+	else if (n < 98)
 	{
 		for (i = n; i <= 98; i++)
 			_putchar(i + '0');
