@@ -6,21 +6,25 @@
  */
 void print_number(int n)
 {
-	int temp;
+	unsigned int m, d, count;
 
 	if (n < 0)
 	{
-		_putchar('-');
-		temp = -n;
+		_putchar(45);
+		m = n * -1;
 	}
-	else
-		temp = n;
-
-	if (temp < 10)
-		_putchar(temp + '0');
 	else
 	{
-		_putchar((temp / 10) + 48);
-		_putchar((temp % 10) + 48);
+		m = n;
 	}
+
+	d = m;
+	count = 1;
+
+	while (d > 9)
+	{
+		d /= 10;
+		count *= 10;
+	}
+	_putchar(((m / count) % 10) + 48);
 }
