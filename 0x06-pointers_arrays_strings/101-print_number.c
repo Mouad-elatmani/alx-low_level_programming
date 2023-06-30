@@ -20,7 +20,7 @@ void print_number(int n)
 		_putchar(temp + '0');
 	else
 	{
-		_putchar((temp / 10) + '0');
-		_putchar((temp % 10) + '0');
+		_putchar((temp / 10) + 48);
+		_putchar((temp % 10) + 48);
 	}
 }
