@@ -2,8 +2,10 @@
 #include <stdlib.h>
 
 /**
- *  z free_dog - function that frees space of strcut dog
- * @d: pointer to struct dog_t
+ * free_dog - frees dogs
+ * @d: pointer to dog
+ *
+ * Return: void
  */
 
 void free_dog(dog_t *d)
