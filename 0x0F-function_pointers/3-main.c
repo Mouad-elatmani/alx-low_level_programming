@@ -1,11 +1,13 @@
 #include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 /**
- * get_op_func -select the correct op .
- * @s: the oper passed on argument.
+ * main - Prints
+ * @argc: The numbers
+ * @argv: Array
  *
- * Return: a pointer to the correct function.
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
