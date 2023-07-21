@@ -12,7 +12,7 @@ void print_all(const char * const format, ...)
 	unsigned int i = 0, j = 0;
 	char *arg;
 
-	a_start(list, format);
+	va_start(list, format);
 
 	while (format && format[i])
 	{
@@ -49,4 +49,3 @@ void print_all(const char * const format, ...)
 	printf("\n");
 	va_end(list);
 }
-
