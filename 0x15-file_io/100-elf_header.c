@@ -19,7 +19,7 @@ void print_adre(char *ptr)
 
 	printf("  Entry point address:               0x");
 
-	sys = ptr[4] + '0';
+	syste = ptr[4] + '0';
 	if (syste == '1')
 	{
 		beg = 26;
