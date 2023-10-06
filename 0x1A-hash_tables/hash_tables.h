@@ -1,4 +1,4 @@
-i#ifndef HASH_TABLE
+#ifndef HASH_TABLE
 #define HASH_TABLE
 
 #include <stdlib.h>
